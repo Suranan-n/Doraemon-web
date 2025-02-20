@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'kanit';
+    background-color: #149dff;
+}
+
+/* navbar */
+.navbar {
+    background-color:#0096FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    font-size: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+/* button */
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 15px 30px;
+    font-family: 'prompt';
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+.active {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+/* content */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.content {
+    background-color: #fff;
+    margin: 0px 100px;
+    border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.img img {
+    border-radius: 20px;
+    width: 300px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;   
+}
+
+.info {
+    padding: 10px 40px;
+    padding-bottom: 30px;
+    color: rgb(43, 43, 43);
+}
+
+/* footer */
+.footer {
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foot-text {
+    align-items: center;
+}
+
+.foot img {
+    width: 80px;
+}
